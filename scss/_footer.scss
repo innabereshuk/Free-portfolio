@@ -1,0 +1,23 @@
+.footer {
+    &__section {
+        min-height: 250px;
+        background-image: $gradient;
+        text-align: center;    
+    }
+    &__container {
+        margin: 100px auto;
+        display: inline-block;
+        justify-content: center;
+    }
+    &__text {
+        font-family: $text-ff ;
+        font-weight: lighter;
+        font-size: 50px;
+        color: #fff;
+        vertical-align: middle;
+        &--bold {
+            font-weight: bold;
+        }
+    }
+    
+}
